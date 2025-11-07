@@ -408,3 +408,38 @@ Stack trace:
 [07-Nov-2025 17:50:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
 [07-Nov-2025 17:50:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
 [07-Nov-2025 17:50:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 18:06:48 Europe/Berlin] Session regenerated
+[07-Nov-2025 18:44:20 Europe/Berlin] Session regenerated
+[07-Nov-2025 18:44:46 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 18:44:46 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 18:44:46 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 18:44:46 Europe/Berlin]   - Token time: 2025-11-07 17:28:43
+[07-Nov-2025 18:44:46 Europe/Berlin] CSRF FAIL: Token expired
+[07-Nov-2025 18:44:46 Europe/Berlin] CSRF: Generated new token: 0e22d00e1d...
+[07-Nov-2025 18:45:31 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 18:45:31 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 18:45:31 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 18:45:31 Europe/Berlin]   - Token time: 2025-11-07 18:44:46
+[07-Nov-2025 18:45:31 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 18:45:31 Europe/Berlin] User logged in: admin@medportal.com (ID: 1)
+[07-Nov-2025 18:45:46 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip_address' cannot be null in C:\xampp\htdocs\newmed\app\models\AuditLog.php:32
+Stack trace:
+#0 C:\xampp\htdocs\newmed\app\models\AuditLog.php(32): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\newmed\app\core\Auth.php(60): AuditLog->log(1, 'logout')
+#2 C:\xampp\htdocs\newmed\public\logout.php(9): Auth->logout()
+#3 {main}
+  thrown in C:\xampp\htdocs\newmed\app\models\AuditLog.php on line 32
+[07-Nov-2025 18:46:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip_address' cannot be null in C:\xampp\htdocs\newmed\app\models\AuditLog.php:32
+Stack trace:
+#0 C:\xampp\htdocs\newmed\app\models\AuditLog.php(32): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\newmed\app\core\Auth.php(60): AuditLog->log(1, 'logout')
+#2 C:\xampp\htdocs\newmed\public\logout.php(9): Auth->logout()
+#3 {main}
+  thrown in C:\xampp\htdocs\newmed\app\models\AuditLog.php on line 32
+[07-Nov-2025 18:49:35 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'ip_address' cannot be null in C:\xampp\htdocs\newmed\app\models\AuditLog.php:32
+Stack trace:
+#0 C:\xampp\htdocs\newmed\app\models\AuditLog.php(32): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\newmed\app\core\Auth.php(60): AuditLog->log(1, 'logout')
+#2 C:\xampp\htdocs\newmed\public\logout.php(9): Auth->logout()
+#3 {main}
+  thrown in C:\xampp\htdocs\newmed\app\models\AuditLog.php on line 32
