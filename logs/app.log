@@ -1,0 +1,410 @@
+[07-Nov-2025 11:56:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "AuditLog" not found in C:\xampp\htdocs\newmed\app\core\Auth.php:14
+Stack trace:
+#0 C:\xampp\htdocs\newmed\public\index.php(9): Auth->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\newmed\app\core\Auth.php on line 14
+[07-Nov-2025 11:57:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "AuditLog" not found in C:\xampp\htdocs\newmed\app\core\Auth.php:14
+Stack trace:
+#0 C:\xampp\htdocs\newmed\public\index.php(9): Auth->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\newmed\app\core\Auth.php on line 14
+[07-Nov-2025 12:02:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "AuditLog" not found in C:\xampp\htdocs\newmed\app\core\Auth.php:14
+Stack trace:
+#0 C:\xampp\htdocs\newmed\public\index.php(9): Auth->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\newmed\app\core\Auth.php on line 14
+[07-Nov-2025 12:09:24 Europe/Berlin] PHP Warning:  require_once(../app/models/AuditLog.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\newmed\public\index.php on line 6
+[07-Nov-2025 12:09:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../app/models/AuditLog.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\newmed\public\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\newmed\public\index.php on line 6
+[07-Nov-2025 12:22:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "AuditLog" not found in C:\xampp\htdocs\newmed\app\core\Auth.php:14
+Stack trace:
+#0 C:\xampp\htdocs\newmed\public\index.php(8): Auth->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\newmed\app\core\Auth.php on line 14
+[07-Nov-2025 12:52:25 Europe/Berlin] PHP Warning:  require_once(../app/models/AuditLog.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\newmed\public\index.php on line 11
+[07-Nov-2025 12:52:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../app/models/AuditLog.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\newmed\public\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\newmed\public\index.php on line 11
+[07-Nov-2025 12:52:44 Europe/Berlin] Autoloader: Class AuditLog not found in any directory
+[07-Nov-2025 12:52:44 Europe/Berlin] Autoloader: Class AuditLog not found in any directory
+[07-Nov-2025 12:52:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "AuditLog" not found in C:\xampp\htdocs\newmed\public\debug.php:67
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\newmed\public\debug.php on line 67
+[07-Nov-2025 12:53:57 Europe/Berlin] PHP Warning:  require_once(../app/core/CSRF.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\newmed\public\login.php on line 8
+[07-Nov-2025 12:53:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../app/core/CSRF.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\newmed\public\login.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\newmed\public\login.php on line 8
+[07-Nov-2025 12:57:09 Europe/Berlin] PHP Warning:  require_once(../app/core/CSRF.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\newmed\public\login.php on line 8
+[07-Nov-2025 12:57:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required '../app/core/CSRF.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\newmed\public\login.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\newmed\public\login.php on line 8
+[07-Nov-2025 13:18:25 Europe/Berlin] Session ID: 98ddhr5vm08oc429dsqb3apjpl
+[07-Nov-2025 13:18:25 Europe/Berlin] CSRF Token in session: exists
+[07-Nov-2025 13:18:26 Europe/Berlin] New CSRF token generated for form: 892b3c84a2...
+[07-Nov-2025 13:18:42 Europe/Berlin] Session ID: 98ddhr5vm08oc429dsqb3apjpl
+[07-Nov-2025 13:18:42 Europe/Berlin] CSRF Token in session: exists
+[07-Nov-2025 13:18:42 Europe/Berlin] POST received - CSRF token: 892b3c84a2a2bdc187e2f95bad64e11d3564c8640f702afd4a298993c1173c10
+[07-Nov-2025 13:18:42 Europe/Berlin] CSRF Debug - Stored: yes, Provided: yes
+[07-Nov-2025 13:18:42 Europe/Berlin] CSRF Error: No token stored in session
+[07-Nov-2025 13:18:42 Europe/Berlin] CSRF validation failed
+[07-Nov-2025 13:18:42 Europe/Berlin] New CSRF token generated for form: 892b3c84a2...
+[07-Nov-2025 13:19:47 Europe/Berlin] Session ID: 98ddhr5vm08oc429dsqb3apjpl
+[07-Nov-2025 13:19:47 Europe/Berlin] CSRF Token in session: exists
+[07-Nov-2025 13:19:47 Europe/Berlin] POST received - CSRF token: 892b3c84a2a2bdc187e2f95bad64e11d3564c8640f702afd4a298993c1173c10
+[07-Nov-2025 13:19:47 Europe/Berlin] CSRF Debug - Stored: yes, Provided: yes
+[07-Nov-2025 13:19:47 Europe/Berlin] CSRF Error: No token stored in session
+[07-Nov-2025 13:19:47 Europe/Berlin] CSRF validation failed
+[07-Nov-2025 13:19:47 Europe/Berlin] New CSRF token generated for form: 892b3c84a2...
+[07-Nov-2025 13:21:29 Europe/Berlin] CSRF Debug - Stored: yes, Provided: yes
+[07-Nov-2025 13:21:29 Europe/Berlin] CSRF Error: No token stored in session
+[07-Nov-2025 13:27:54 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:27:54 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:27:54 Europe/Berlin] CSRF Token exists: NO
+[07-Nov-2025 13:27:54 Europe/Berlin] CSRF: Generated new token: 2260b44f25...
+[07-Nov-2025 13:27:54 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:28:05 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:28:05 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:28:05 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:28:05 Europe/Berlin] === LOGIN FORM SUBMISSION ===
+[07-Nov-2025 13:28:05 Europe/Berlin] POST CSRF token: 2260b44f25a42f6eb0b9f0592d0431372ec9a029d1cf341fd472b7eee1a46ead
+[07-Nov-2025 13:28:05 Europe/Berlin] Session CSRF token: 2260b44f25...
+[07-Nov-2025 13:28:05 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 13:28:05 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 13:28:05 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 13:28:05 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 13:28:05 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 13:28:05 Europe/Berlin] Login attempt for: admin@medportal.com
+[07-Nov-2025 13:28:06 Europe/Berlin] Login exception: Invalid email or password.
+[07-Nov-2025 13:28:06 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:28:43 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:28:43 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:28:43 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:28:43 Europe/Berlin] === LOGIN FORM SUBMISSION ===
+[07-Nov-2025 13:28:43 Europe/Berlin] POST CSRF token: 2260b44f25a42f6eb0b9f0592d0431372ec9a029d1cf341fd472b7eee1a46ead
+[07-Nov-2025 13:28:43 Europe/Berlin] Session CSRF token: 2260b44f25...
+[07-Nov-2025 13:28:43 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 13:28:43 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 13:28:43 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 13:28:43 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 13:28:43 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 13:28:43 Europe/Berlin] Login attempt for: admin@medportal.com
+[07-Nov-2025 13:28:43 Europe/Berlin] Login exception: Invalid email or password.
+[07-Nov-2025 13:28:43 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:29:02 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:29:02 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:29:02 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:29:02 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:29:12 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:29:12 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:29:12 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:29:12 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:29:57 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:29:57 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:29:57 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:29:57 Europe/Berlin] === LOGIN FORM SUBMISSION ===
+[07-Nov-2025 13:29:57 Europe/Berlin] POST CSRF token: 2260b44f25a42f6eb0b9f0592d0431372ec9a029d1cf341fd472b7eee1a46ead
+[07-Nov-2025 13:29:57 Europe/Berlin] Session CSRF token: 2260b44f25...
+[07-Nov-2025 13:29:57 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 13:29:57 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 13:29:57 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 13:29:57 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 13:29:57 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 13:29:57 Europe/Berlin] Login attempt for: admin@medportal.com
+[07-Nov-2025 13:29:57 Europe/Berlin] Login exception: Invalid email or password.
+[07-Nov-2025 13:29:57 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:33:54 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:33:54 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:33:54 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:33:54 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:34:09 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:34:09 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:34:09 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:34:09 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:34:17 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:34:17 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:34:17 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:34:17 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:38:40 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:38:40 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:38:40 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:38:40 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:39:25 Europe/Berlin] === LOGIN PAGE LOAD ===
+[07-Nov-2025 13:39:25 Europe/Berlin] Session ID: dqc0uume9lmcv0ckbho82nqnvi
+[07-Nov-2025 13:39:25 Europe/Berlin] CSRF Token exists: YES
+[07-Nov-2025 13:39:25 Europe/Berlin] === LOGIN FORM SUBMISSION ===
+[07-Nov-2025 13:39:25 Europe/Berlin] POST CSRF token: 2260b44f25a42f6eb0b9f0592d0431372ec9a029d1cf341fd472b7eee1a46ead
+[07-Nov-2025 13:39:25 Europe/Berlin] Session CSRF token: 2260b44f25...
+[07-Nov-2025 13:39:25 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 13:39:25 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 13:39:25 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 13:39:25 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 13:39:25 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 13:39:25 Europe/Berlin] Login attempt for: admin@medportal.com
+[07-Nov-2025 13:39:26 Europe/Berlin] Login exception: Invalid email or password.
+[07-Nov-2025 13:39:26 Europe/Berlin] Generated form CSRF token: 2260b44f25...
+[07-Nov-2025 13:50:07 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 13:50:07 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 13:50:07 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 13:50:07 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 13:50:07 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 13:57:13 Europe/Berlin] Session regenerated
+[07-Nov-2025 14:10:29 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:10:29 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:10:29 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:10:29 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:10:29 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:10:54 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:10:54 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:10:54 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:10:54 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:10:54 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:23 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:23 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:23 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:23 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:23 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:25 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:25 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:25 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:25 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:25 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:26 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:26 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:26 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:26 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:26 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:28 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:28 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:28 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:28 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:28 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:29 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:29 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:29 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:29 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:29 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:38 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:38 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:38 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:38 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:38 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:51 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:51 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:51 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:51 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:51 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:20:53 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:20:53 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:20:53 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:20:53 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:20:53 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:23:41 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:23:41 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:23:41 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:23:41 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:23:41 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:28:09 Europe/Berlin] Session regenerated
+[07-Nov-2025 14:28:09 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:28:09 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:28:09 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:28:09 Europe/Berlin]   - Token time: 2025-11-07 13:27:54
+[07-Nov-2025 14:28:09 Europe/Berlin] CSRF FAIL: Token expired
+[07-Nov-2025 14:28:09 Europe/Berlin] CSRF: Generated new token: f509dbcd3f...
+[07-Nov-2025 14:28:55 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:28:55 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:28:55 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:28:55 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:28:55 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:29:27 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:29:27 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:29:27 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:29:27 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:29:27 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:29:34 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:29:34 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:29:34 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:29:34 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:29:34 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:29:44 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:29:44 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:29:44 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:29:44 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:29:44 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:29:50 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:29:50 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:29:50 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:29:50 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:29:50 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:29:59 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:29:59 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:29:59 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:29:59 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:29:59 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:30:04 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:30:04 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:30:04 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:30:04 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:30:04 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:30:19 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:30:19 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:30:19 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:30:19 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:30:19 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:30:31 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:30:31 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:30:31 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:30:31 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:30:31 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:32:46 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:32:46 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:32:46 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:32:46 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:32:46 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:34:49 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:34:49 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:34:49 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:34:49 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:34:49 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:48:50 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:48:50 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:48:50 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:48:50 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:48:50 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:49:13 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:49:13 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:49:13 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:49:13 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:49:13 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 14:49:16 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 14:49:16 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 14:49:16 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 14:49:17 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 14:49:17 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:05:03 Europe/Berlin] Session regenerated
+[07-Nov-2025 15:05:03 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:05:03 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:05:03 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:05:03 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 15:05:03 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:05:09 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:05:09 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:05:09 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:05:09 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 15:05:09 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:05:21 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:05:21 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:05:21 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:05:21 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 15:05:21 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:05:29 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:05:29 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:05:29 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:05:29 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 15:05:29 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:05:55 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:05:55 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:05:55 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:05:55 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 15:05:55 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:31:07 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:31:07 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:31:07 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:31:07 Europe/Berlin]   - Token time: 2025-11-07 14:28:09
+[07-Nov-2025 15:31:07 Europe/Berlin] CSRF FAIL: Token expired
+[07-Nov-2025 15:31:07 Europe/Berlin] CSRF: Generated new token: 9f6a2da7ba...
+[07-Nov-2025 15:50:42 Europe/Berlin] Session regenerated
+[07-Nov-2025 15:50:47 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 15:50:47 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 15:50:47 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 15:52:26 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 15:52:26 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 15:52:26 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 15:53:00 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 15:53:00 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 15:53:00 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 15:53:19 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 15:53:19 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 15:53:19 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 15:53:19 Europe/Berlin] Registration error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password_change_required' in 'field list'
+[07-Nov-2025 15:54:14 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 15:54:14 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 15:54:14 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 15:54:14 Europe/Berlin] Registration error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'password_change_required' in 'field list'
+[07-Nov-2025 15:54:20 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 15:54:21 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 15:54:21 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 15:54:55 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:54:55 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:54:55 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:54:55 Europe/Berlin]   - Token time: 2025-11-07 15:31:07
+[07-Nov-2025 15:54:55 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:57:25 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:57:25 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:57:25 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:57:25 Europe/Berlin]   - Token time: 2025-11-07 15:31:07
+[07-Nov-2025 15:57:25 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:59:07 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:59:07 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:59:07 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:59:07 Europe/Berlin]   - Token time: 2025-11-07 15:31:07
+[07-Nov-2025 15:59:07 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 15:59:21 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 15:59:21 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 15:59:21 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 15:59:21 Europe/Berlin]   - Token time: 2025-11-07 15:31:07
+[07-Nov-2025 15:59:21 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 16:10:43 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 16:10:43 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 16:10:43 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 16:10:43 Europe/Berlin]   - Token time: 2025-11-07 15:31:07
+[07-Nov-2025 16:10:43 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 16:11:18 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 16:11:18 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 16:11:18 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 16:12:16 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 16:12:16 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 16:12:16 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 16:35:29 Europe/Berlin] Session regenerated
+[07-Nov-2025 16:42:16 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 16:42:16 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 16:42:16 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 16:51:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 16:51:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 16:51:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 16:52:14 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 16:52:14 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 16:52:14 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 16:52:34 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 16:52:34 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 16:52:34 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 16:52:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 16:52:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 16:52:49 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 17:11:51 Europe/Berlin] Session regenerated
+[07-Nov-2025 17:28:15 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2006] MySQL server has gone away
+[07-Nov-2025 17:28:15 Europe/Berlin] Initialization error: Database connection failed.
+[07-Nov-2025 17:28:19 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[07-Nov-2025 17:28:19 Europe/Berlin] Initialization error: Database connection failed.
+[07-Nov-2025 17:28:23 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[07-Nov-2025 17:28:23 Europe/Berlin] Initialization error: Database connection failed.
+[07-Nov-2025 17:28:43 Europe/Berlin] CSRF: Generated new token: 2d4faed926...
+[07-Nov-2025 17:28:51 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 17:28:51 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 17:28:51 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 17:30:07 Europe/Berlin] CSRF Validation:
+[07-Nov-2025 17:30:07 Europe/Berlin]   - Stored token: exists
+[07-Nov-2025 17:30:07 Europe/Berlin]   - Provided token: exists
+[07-Nov-2025 17:30:07 Europe/Berlin]   - Token time: 2025-11-07 17:28:43
+[07-Nov-2025 17:30:07 Europe/Berlin] CSRF SUCCESS: Token validated
+[07-Nov-2025 17:43:58 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 17:43:58 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 17:43:58 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
+[07-Nov-2025 17:50:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 14
+[07-Nov-2025 17:50:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 15
+[07-Nov-2025 17:50:43 Europe/Berlin] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\newmed\config\config.php on line 16
