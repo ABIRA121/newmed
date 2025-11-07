@@ -61,15 +61,43 @@ A comprehensive full-stack medical portal built with PHP, JavaScript, and CSS fe
 
 **Admin:**
 - Email: admin@medportal.com
-- Password: Admin123!
+- Password: Admin12!
 
-**Staff:**
+**Doctor:**
 - Email: dr.smith@medportal.com
-- Password: Staff123!
+- Password: Doctor12!
 
 **Patient:**
 - Email: patient1@example.com
-- Password: Patient123!
+- Password: Patient12!
+
+**Nurse**
+-Email: nurse.jones@medportal.com
+-Password: Nurse12!
+
+**Accountant**
+-Email: accounts@medportal.com
+-Password: Accounts12!
+
+**Pharmacy**
+-Email: pharmacy@medportal.com
+-Password: Pharmarcy12!
+
+[{
+	"resource": "/c:/xampp/htdocs/newmed/app/core/Auth.php",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": "PHP2000",
+	"severity": 8,
+	"message": "Cannot redeclare class/interface 'Auth'",
+	"source": "PHP",
+	"startLineNumber": 123,
+	"startColumn": 1,
+	"endLineNumber": 123,
+	"endColumn": 11,
+	"origin": "extHost1"
+}]
+
+**
 
 ## Security Checklist for Production
 
